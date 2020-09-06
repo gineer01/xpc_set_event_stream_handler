@@ -6,6 +6,14 @@ This is useful when creating `launchd` LaunchAgents that are triggered by IO eve
 
 This isn't really documented anywhere other than the `man` page for `xpc_set_event_stream_handler`.
 
+## Building
+
+```bash
+make install
+```
+
+\o/ tada, that is it! You will now have `xpc_set_event_stream_handler` built and placed in `/usr/local/bin`.
+
 ## Example Property List
 
 	<?xml version="1.0" encoding="UTF-8"?>
